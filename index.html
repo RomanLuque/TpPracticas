@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo Prácticas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icono.png" type="image/png">
+
+</head>
+<body class="index-page"> 
+  <header class="index-page">
+    <h1>Wiki Carrera - Prácticas Profesionalizantes.</h1>
+    <nav class="index-nav">
+      <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#sql">SQL</a></li>
+        <li><a href="#cpp">C++</a></li>
+        <li><a href="Arqui.html">Arquitectura</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="html">
+      <h2>HTML</h2>
+      <p class="parrafoHtml">Cuando hablamos de HTML (Lenguaje de Marcado de Hipertexto), nos referimos a la base estructural de cualquier pagina web. Es el lenguaje que organiza y da forma a los contenidos, permitiendo que los navegadores interpreten y presenten información de manera ordenada. A través de etiquetas, HTML permite definir títulos, párrafos, imágenes, enlaces, tablas, formularios y otros elementos esenciales que conforman una página web. Aunque muchas veces se lo menciona como un "lenguaje de programación", en realidad HTML es un lenguaje de marcado, lo que significa que su función principal no es ejecutar acciones ni operaciones lógicas, sino establecer la estructura del contenido. En otras palabras, actúa como los cimientos y el esqueleto de un sitio web, sobre el cual se apoyan otros lenguajes como CSS (para el diseño visual) y JavaScript (para la interactividad). Sin HTML, no habría una forma coherente de presentar la información en la web tal como la conocemos hoy.</p>
+      <p class="parrafoHtml"> Dentro de este lenguaje podemos encontrar etiquetas que son las iniciales y principales a la hora de crear una pagina web</p>
+      <p class="parrafoeti">&lt;html&gt;, &lt;head&gt;, &lt;body&gt;</p>
+      <div class="bordehtml"> 
+        <img class="imageneslogos" src="img/logohtml.png" alt="logo de html">
+        <p class="textologohtml">El desarrollo web moderno no sería posible sin HTML. Gracias a este lenguaje, los desarrolladores pueden definir jerarquías de contenido, incluir imágenes y videos, y enlazar distintas secciones dentro de un sitio o hacia otras páginas. Además, HTML ha evolucionado con el tiempo: la versión actual, HTML5, introdujo mejoras importantes como la inclusión de elementos semánticos, soporte para multimedia sin plugins y mayor accesibilidad. Este lenguaje, aunque simple en su sintaxis, es extremadamente poderoso cuando se combina con otras tecnologías. Su aprendizaje es considerado el primer paso para quienes desean comenzar en el mundo del desarrollo web, ya que permite construir sitios funcionales desde cero y entender la lógica detrás de cómo se presenta la información en internet.</p>
+      </div>
+
+      <div class="pregunta">¿HTML permite estructurar el contenido de una página web?</div>
+      <button onclick="verificarRespuesta(1, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(1, false)">Falso</button>
+      <div id="resultado1"></div>
+
+      <div class="pregunta">¿HTML puede funcionar por sí solo para diseñar y programar la lógica de una página?</div>
+      <button onclick="verificarRespuesta(2, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(2, false)">Falso</button>
+      <div id="resultado2"></div>
+
+      <div class="pregunta">¿HTML es un lenguaje de programación como Python o JavaScript?</div>
+      <button onclick="verificarRespuesta(3, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(3, false)">Falso</button>
+      <div id="resultado3"></div>
+    </section>
+
+    <section id="css">
+      <h2>CSS</h2>   
+      <p>CSS (Cascading Style Sheets, u Hojas de Estilo en Cascada) es el lenguaje que se utiliza para definir la apariencia visual de los elementos en una página web. Mientras que HTML se encarga de la estructura y el contenido, CSS determina cómo se ve ese contenido: sus colores, tamaños, posiciones, márgenes, tipos de letra, fondos, animaciones y mucho más. El nombre "en cascada" se refiere a cómo las reglas de estilo se aplican de forma jerárquica y prioritaria según el orden en que están definidas. Esto significa que diferentes reglas pueden afectar al mismo elemento, y CSS tiene un sistema que determina cuál se aplica finalmente. Gracias a CSS, un mismo HTML puede adoptar estilos completamente distintos, permitiendo una personalización casi ilimitada del diseño web. Además, CSS permite separar completamente el contenido de la presentación, lo que facilita el mantenimiento de los sitios, mejora la accesibilidad y optimiza la velocidad de carga. En conjunto con HTML y JavaScript, CSS es una de las tecnologías fundamentales de la web.</p>     
+      <p>La forma en la que conectamos HTML con CSS es a través de selectores, que permiten aplicar estilos a elementos específicos del documento. Algunos de los más comunes son:</p>
+      <p class="parrafoeti"> class, id. </p>                                
+      <div class="bordehtml"> 
+        <img class="imageneslogos" src="img/logocss.png" alt="logo de css">
+        <p class="textologohtml">CSS ha evolucionado significativamente desde sus primeras versiones. Hoy en día, gracias a herramientas modernas como Flexbox, Grid, media queries y variables CSS, los diseñadores web pueden crear interfaces responsivas que se adaptan a distintos dispositivos, desde computadoras de escritorio hasta celulares. También es posible aplicar efectos visuales avanzados, como transiciones suaves, sombras, filtros, y animaciones sin necesidad de JavaScript. Aprender CSS no solo significa entender cómo aplicar color o tipografía, sino también dominar el arte de crear experiencias visuales coherentes, accesibles y atractivas para los usuarios.</p>
+      </div>
+
+      <div class="pregunta">¿CSS permite aplicar estilos visuales como colores, tamaños y fuentes a los elementos HTML?</div>
+      <button onclick="verificarRespuesta(4, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(4, false)">Falso</button>
+      <div id="resultado4"></div>
+
+      <div class="pregunta">¿CSS puede reemplazar completamente a HTML en la creación de sitios web?</div>
+      <button onclick="verificarRespuesta(5, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(5, false)">Falso</button>
+      <div id="resultado5"></div>
+
+      <div class="pregunta">¿CSS es un lenguaje de programación que ejecuta funciones y lógica compleja como JavaScript?</div>
+      <button onclick="verificarRespuesta(6, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(6, false)">Falso</button>
+      <div id="resultado6"></div>
+    </section>
+
+    <section id="sql">
+      <h2>SQL</h2>
+      <p>SQL (Structured Query Language) es un lenguaje estándar utilizado para gestionar y manipular bases de datos relacionales. que nos permite a los usuarios realizar operaciones como insertar, consultar, actualizar y eliminar datos. Es un lenguaje accesible para principiantes pero también potente para tareas complejas. Si bien es un lenguaje de programacion, se lo considera un lenguaje de programacion de tipo especifico, 
+        <br> Sql es esencial para trabajar con datos en la mayoria de sus aplicaciones, y para la empresas dado que sirve para crear y administrar bases de datos relacionales y llevar un seguimiento de estas, algunas de sus caracteristicas mas importantes son: <br><br>
+        ⚪Acceso a datos:
+        SQL permite acceder a datos almacenados en bases de datos de forma eficiente y precisa. <br><br>
+        ⚪Manipulación de datos:
+        Permite realizar modificaciones en los datos, como actualizaciones, inserciones y eliminaciones. <br><br>
+        ⚪Gestión de bases de datos:
+        SQL es la herramienta principal para administrar la estructura de las bases de datos, crear tablas y definir relaciones entre ellas. <br><br></p>
+        <div class="bordehtml"> 
+        <img class="imageneslogos" src="img/logosql.png" alt="logo de SQL">
+        <p class="textologohtml">SQL ha evolucionado desde su creación para convertirse en una herramienta fundamental en el manejo de bases de datos. Hoy en día, gracias a sus capacidades avanzadas, permite no solo consultar información, sino también organizar, filtrar, actualizar y proteger grandes volúmenes de datos de manera eficiente. Con SQL, los desarrolladores y analistas pueden realizar operaciones complejas como uniones entre tablas, agrupamientos, subconsultas, procedimientos almacenados y manejo de transacciones, lo que lo convierte en un lenguaje clave para el análisis de datos y la programación backend. Aprender SQL no solo implica saber hacer consultas básicas, sino también comprender cómo estructurar bases de datos de forma óptima, mantener su integridad y extraer información útil para la toma de decisiones.</p>
+      </div> <br>
+      <p>SQL se utiliza a través de comandos y sentencias que se ejecutan en un sistema de gestión de bases de datos (DBMS). Los DBMS, como MySQL, PostgreSQL, SQL Server, Oracle, etc., interpretan las sentencias SQL y realizan las operaciones correspondientes en la base de datos. </p>
+
+      <div class="pregunta">¿SQL se utiliza para crear aplicaciones?</div>
+      <button onclick="verificarRespuesta(7, false)">Verdadero</button>
+      <button onclick="verificarRespuesta(7, true)">Falso</button>
+      <div id="resultado7"></div>
+
+      <div class="pregunta">¿Existen distintos sistemas gestores de bases de datos?</div>
+      <button onclick="verificarRespuesta(8, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(8, false)">Falso</button>
+      <div id="resultado8"></div>
+
+      <div class="pregunta">¿Sql esta mas orientado al backend?</div>
+      <button onclick="verificarRespuesta(9, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(9, false)">Falso</button>
+      <div id="resultado9"></div>
+    </section>
+
+    <section id="cpp">
+      <h2>C++</h2>
+      <p>C++ es un lenguaje de programación de propósito general, de alto nivel y compilado, conocido por su versatilidad y eficiencia. Se utiliza para desarrollar una amplia gama de aplicaciones, desde sistemas operativos y videojuegos hasta software de alto rendimiento y aplicaciones científicas, <br> <br> Algunas de sus caracteristicas son <br> <br> ⚪Multiparadigma:
+        Permite programación orientada a objetos, programación estructurada y programación genérica, lo que lo hace muy flexible <br> <br>
+              ⚪Orientado a objetos:
+        Incorpora conceptos como clases, herencia, polimorfismo y encapsulación, lo que facilita la organización y reutilización del código. <br> <br>
+              ⚪Alto rendimiento:
+        Permite un control cercano del hardware y la memoria, lo que lo hace ideal para aplicaciones que requieren velocidad y eficiencia. 
+        </p>
+        <div class="bordehtml"> 
+        <img class="imageneslogos" src="img/logocpp.png" alt="logo de C++">
+        <p class="textologohtml">C++ es un lenguaje de programación poderoso y versátil, utilizado ampliamente en el desarrollo de software de alto rendimiento. Desde sus inicios, ha sido la base para crear sistemas operativos, videojuegos, motores gráficos, software embebido y aplicaciones que requieren control preciso del hardware y la memoria. A lo largo del tiempo, C++ ha incorporado características modernas como la programación orientada a objetos, plantillas (templates), manejo de excepciones y, en sus versiones más recientes, mejoras en la sintaxis y soporte para programación funcional. Aprender C++ no solo significa escribir código que funcione, sino también comprender cómo se gestionan los recursos del sistema, optimizar el rendimiento y construir soluciones robustas, eficientes y escalables..</p>
+      </div> 
+      <p>Y no hay mucho mas porque recien lo estamos aprendiendo</p>
+
+      <div class="pregunta">¿C++ permite trabajar con distintos paradigmas de programación, como la orientación a objetos?</div>
+      <button onclick="verificarRespuesta(10, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(10, false)">Falso</button>
+      <div id="resultado10"></div>
+
+      <div class="pregunta">¿Es ideal para la creacion y integracion de inteligencia artifical?</div>
+      <button onclick="verificarRespuesta(11, true)">Verdadero</button>
+      <button onclick="verificarRespuesta(11, false)">Falso</button>
+      <div id="resultado11"></div>
+
+      <div class="pregunta">¿Al tener un control cercano al hardware lo convierte en veloz y efieciente a la hora de hacer aplicaciones?</div>
+      <button onclick="verificarRespuesta(12, false)">Verdadero</button>
+      <button onclick="verificarRespuesta(12, true)">Falso</button>
+      <div id="resultado12"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <div class="footer-content">
+    <p><strong>Wiki Carrera - Practicas Profesionalizantes 2025</strong></p>
+    <div class="bordecontactomail">
+  <img class="imagenmail" src="img/mail.png" alt="contacto de mail">
+
+  <div class="contenedor-mails">
+    <span class="textolabel">Contacto:</span>
+    <a href="https://outlook.live.com/mail/0/deeplink/compose?to=lautaro.berutti@outlook.com" target="_blank">lautaro.berutti@outlook.com</a>
+    <a href="https://outlook.live.com/mail/0/deeplink/compose?to=romanrluque@gmail.com" target="_blank">romanrluque@gmail.com</a>
+    <a href="https://outlook.live.com/mail/0/deeplink/compose?to=lucianodelinstituto24@gmail.com" target="_blank">lucianodelinstituto24@gmail.com</a>
+      <div class="telefonos">
+        <table class="tabla">
+          <tr>
+            <td class="contenido-tabla">1136607731
+              <a href="https://github.com/LautaroBerutti" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Lautaro" class="icono-github">
+              </a>
+            </td>
+            <td class="contenido-tabla">1123235141
+              <a href="https://github.com/RomanLuque" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Roman" class="icono-github">
+              </a>
+            </td>
+            <td class="contenido-tabla">1161731155
+              <a href="https://github.com/luchogit13" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Luciano" class="icono-github">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+  </div>
+</div>
+    <p>Sitio desarrollado por: Lautaro Berutti - Roman Luque - Luciano Rubino</p>
+  </div>
+</footer>
+<script src="scripts.js"></script>
+
+</body>
+</html>
